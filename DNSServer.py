@@ -99,6 +99,18 @@ dns_records = {
             86400,  # minimum
         ),
     },
+    'safebank.com.': {
+        dns.rdatatype.A: '192.168.1.102',
+    },
+    'google.com.': {
+        dns.rdatatype.A: '192.168.1.103',
+    },
+    'legitsite.com.': {
+        dns.rdatatype.A: '192.168.1.104',
+    },
+    'yahoo.com.': {
+        dns.rdatatype.A: '192.168.1.105',
+    },
 }
 
 
